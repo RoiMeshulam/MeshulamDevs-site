@@ -18,30 +18,31 @@ export const metadata: Metadata = {
     template: "%s | MeshulamDev",
   },
   description:
-    "I build real-world backend, real-time and automation systems. APIs, WebSockets, cloud infrastructure and production-ready solutions for startups and businesses.",
-
-  metadataBase: new URL("https://meshulamdevs.com"),
-
+    "I build real-world backend, real-time and automation systems with end-to-end ownership. APIs, WebSockets, cloud infrastructure and production-ready solutions.",
+  metadataBase: new URL("https://meshulam-devs-site.vercel.app"), // או הדומיין שלך
   openGraph: {
     title: "MeshulamDev – Real-World Software Systems",
     description:
-      "Backend, real-time and automation systems with end-to-end ownership.",
-    url: "https://meshulamdevs.com",
+      "Backend, real-time and automation systems with end-to-end ownership. APIs, WebSockets, cloud and production-ready delivery.",
+    url: "https://meshulam-devs-site.vercel.app",
     siteName: "MeshulamDev",
     images: [
       {
         url: "/og.png",
         width: 1200,
         height: 630,
-        alt: "MeshulamDev – Software Systems",
+        alt: "MeshulamDev",
       },
     ],
     locale: "en_US",
     type: "website",
   },
-
-  icons: {
-    icon: "/favicon.ico",
+  twitter: {
+    card: "summary_large_image",
+    title: "MeshulamDev – Real-World Software Systems",
+    description:
+      "Backend, real-time and automation systems with end-to-end ownership.",
+    images: ["/og.png"],
   },
 };
 
