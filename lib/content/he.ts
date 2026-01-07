@@ -94,7 +94,7 @@ export const he = {
             image: "/projects/deliveries.png",
             links: {
               github: "https://github.com/RoiMeshulam/DeliveriesProject",
-              live: "https://deliveries.example.com",
+            //   live: "https://deliveries.example.com",
             },
           },
           {
