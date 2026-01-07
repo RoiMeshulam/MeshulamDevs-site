@@ -80,8 +80,8 @@ export const he = {
             tech: ["React Native", "Node.js", "Socket.IO", "Firebase"],
             image: "/projects/kasa.png",
             links: {
-              github: "https://github.com/your-username/kasa",
-              live: "https://kasa-demo.example.com",
+              github: "https://github.com/RoiMeshulam/Kasa-prototype",
+            //   live: "https://kasa-demo.example.com",
             },
           },
           {
@@ -93,7 +93,7 @@ export const he = {
             tech: ["Node.js", "Express", "PostgreSQL", "Azure Computer Vision"],
             image: "/projects/deliveries.png",
             links: {
-              github: "https://github.com/your-username/deliveries-system",
+              github: "https://github.com/RoiMeshulam/DeliveriesProject",
               live: "https://deliveries.example.com",
             },
           },
@@ -105,8 +105,8 @@ export const he = {
             tech: ["n8n", "OpenAI API", "Google Sheets", "Node.js"],
             image: "/projects/hrbuster.png",
             links: {
-              github: "https://github.com/your-username/hrbusterai",
-              live: "https://hrbuster.example.com",
+            //   github: "https://github.com/your-username/hrbusterai",
+            //   live: "https://hrbuster.example.com",
             },
           },
           {
@@ -123,7 +123,7 @@ export const he = {
             tech: ["React", "Node.js", "Express", "PostgreSQL"],
             image: "/projects/melamedlaw.png",
             links: {
-              github: "https://github.com/your-username/melamedlaw",
+            //   github: "https://github.com/your-username/melamedlaw",
               live: "https://client.melamedlaw.co.il/LoginStack/LoginScreen",
             },
           },

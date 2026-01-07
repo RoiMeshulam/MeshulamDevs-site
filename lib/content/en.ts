@@ -98,7 +98,7 @@ export const en = {
             image: "/projects/deliveries.png",
             links: {
               github: "https://github.com/RoiMeshulam/DeliveriesProject",
-              live: "https://deliveries.example.com",
+            //   live: "https://deliveries.example.com",
             },
           },
           {
@@ -125,7 +125,7 @@ export const en = {
               "End-to-end ownership (web + server + DB)",
             ],
             tech: ["React", "Node.js", "Express", "PostgreSQL"],
-            image: "/projects/MelamedLaw.png",
+            image: "/projects/melamedlaw.png",
             links: {
             //   github: "https://github.com/your-username/melamedlaw",
               live: "https://client.melamedlaw.co.il/LoginStack/LoginScreen",
