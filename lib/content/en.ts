@@ -1,143 +1,167 @@
 export const en = {
-    nav: { services: "Expertise", projects: "Work", contact: "Let's Talk" }, // קצר ומקצועי יותר
+    nav: { services: "Services", projects: "Projects", contact: "Contact" },
   
     hero: {
-      title: "Robust Backend & Automation Architecture", // חזק יותר מ"I build systems"
-      subtitle: "Scalable Solutions • Real-Time Systems • Cloud Infrastructure",
+      title: "I build real-world systems",
+      subtitle: "Backend, Real-Time, Automation & Cloud",
       desc:
-        "Transforming complex business logic into reliable, production-grade systems. Specializing in high-performance APIs, automation pipelines, and end-to-end product delivery.",
-      ctaPrimary: "Discuss Your Project",
-      ctaSecondary: "Explore Portfolio",
+        "APIs, real-time apps, automation pipelines and production-ready systems for startups, businesses and internal tools.",
+      ctaPrimary: "Let’s work together",
+      ctaSecondary: "View projects",
     },
   
     trust: [
-      "Full Cycle Ownership", // יותר מקצועי מ"End-to-end"
-      "Production-First Mindset",
-      "Proven Track Record", // חלופה טובה ל"Real clients"
-      "Cloud & DevOps Native",
+      "End-to-end ownership",
+      "Production mindset",
+      "Real clients & real systems",
+      "Cloud & automation expertise",
     ],
   
     services: {
-      title: "Technical Expertise",
+      title: "What I help you build",
       items: [
         {
-          title: "Backend Engineering",
+          title: "Backend & Cloud Systems",
           desc:
-            "Architecting secure and scalable server-side systems designed for high availability.",
+            "Design and development of reliable backend systems built to scale and operate in production.",
           bullets: [
-            "Advanced REST API Architecture",
-            "Secure Authentication (OAuth/JWT)",
-            "Complex Database Modeling (SQL/NoSQL)",
-            "CI/CD Pipelines & Cloud Deployment",
+            "REST APIs & system architecture",
+            "Authentication & security flows",
+            "Relational & NoSQL databases",
+            "Cloud deployment & CI/CD",
           ],
         },
         {
-          title: "Real-Time Communication",
+          title: "Real-Time & Integrations",
           desc:
-            "Building synchronized systems that deliver data instantly across platforms.",
+            "When systems need to communicate fast and reliably across services and platforms.",
           bullets: [
-            "WebSocket Infrastructure",
-            "Event-Driven Architecture",
-            "Async Processing & Queues",
-            "High-Volume Data Ingestion",
+            "WebSockets & real-time flows",
+            "Webhooks & external APIs",
+            "Async workers & background jobs",
+            "OCR & data ingestion pipelines",
           ],
         },
         {
-          title: "Workflow Automation",
+          title: "Automation & AI",
           desc:
-            "Optimizing operational efficiency through intelligent integration and AI.",
+            "Reduce manual work and unlock leverage using automation and AI-driven workflows.",
           bullets: [
-            "Custom Automation Workflows (n8n)",
-            "LLM & AI Agent Integration",
-            "Internal Tooling & Admin Panels",
-            "Business Intelligence Systems",
+            "Business process automation (n8n)",
+            "AI-powered workflows (OpenAI APIs)",
+            "Internal tools & dashboards",
+            "Data-driven decision systems",
           ],
         },
         {
-          title: "End-to-End Product Dev",
+          title: "Full-Stack Products",
           desc:
-            "Delivering complete digital products from architectural design to deployment.",
+            "From idea to production — full end-to-end ownership of web and mobile products.",
           bullets: [
-            "Cross-Platform Mobile & Web Apps",
-            "React & React Native Ecosystem",
-            "Full Infrastructure Setup",
-            "Production Monitoring & Maintenance",
+            "Web & mobile applications",
+            "React & React Native",
+            "Backend, frontend & infrastructure",
+            "Complete delivery ownership",
           ],
         },
       ],
     },
   
     projects: {
-      title: "Featured Work",
-      subtitle: "A selection of mission-critical systems and automated solutions.",
-      items: [
-        {
-          name: "KASA – IoT Recycling Platform",
-          tag: "Real-time · IoT · Full System",
-          oneLiner: "A comprehensive real-time ecosystem connecting users, smart machines, and cloud services.",
-          bullets: [
-            "Dual React Native Applications",
-            "Bi-directional WebSocket Communication",
-            "Robust State Management",
-            "Scalable Cloud Infrastructure",
-          ],
-          // ... rest of keys
-        },
-        {
-          name: "Deliveries Operations System",
-          tag: "Automation · Logistic",
-          oneLiner:
-            "An automated logistics platform orchestrating 100+ daily deliveries via WhatsApp integration.",
-          bullets: ["WhatsApp API Integration", "Intelligent OCR Pipelines", "Centralized Backend Dashboard"],
-          // ... rest of keys
-        },
-        {
-          name: "HrBusterAI",
-          tag: "AI Agents · HR Tech",
-          oneLiner: "Leveraging AI to automate candidate screening and application management workflows.",
-          bullets: ["Autonomous Workflows", "OpenAI Logic Integration", "Data Processing at Scale"],
-          // ... rest of keys
-        },
-        {
-          name: "MelamedLaw Client Portal",
-          tag: "FinTech · Secure Portal",
-          oneLiner:
-            "A secure client-facing portal ensuring data privacy and seamless document access.",
-          bullets: [
-            "Secure React Dashboard",
-            "Role-Based Access Control",
-            "Complex Data Relationships",
-            "Full Stack Implementation",
-          ],
-          // ... rest of keys
-        },
-      ],
-    },
-    
-    // ... (Contact and How sections remain similar but slightly polished)
-    how: {
-      title: "My Process",
-      steps: [
-        "Analyze Core Requirements",
-        "Architect Scalable Solutions",
-        "Develop for Production",
-        "Deploy & Monitor",
-      ],
-      note: "Clean code. Scalable architecture. Business results.",
-    },
-     contact: {
-        title: "Ready to Scale?",
-        phone: "Phone",
-        phonePlaceholder: "+972 50-123-4567",
-        note: "Response within 24 hours guaranteed.",
-        desc: "Looking for a partner to build your next system? Let's talk technical.",
-        name: "Full Name",
-        email: "Business Email",
-        message: "Project Details",
-        send: "Send Inquiry",
-        success: "Received. I'll be in touch shortly.",
-        sending: "Transmitting...",
-        error: "Transmission failed. Please retry.",
+        title: "Selected Projects",
+        subtitle: "Real-world systems with production mindset and end-to-end ownership.",
+        items: [
+          {
+            name: "KASA – Smart Recycling System",
+            tag: "Featured · Real-time · Client",
+            oneLiner: "Real-time platform connecting users, machines and backend services.",
+            bullets: [
+              "React Native apps (User & Machine)",
+              "WebSocket-based real-time communication",
+              "Backend session & state management",
+              "Cloud infrastructure & databases",
+            ],
+            tech: ["React Native", "Node.js", "Socket.IO", "Firebase"],
+            image: "/projects/kasa.png",
+            links: {
+              github: "https://github.com/RoiMeshulam/Kasa-prototype",
+            //   live: "https://kasa-demo.example.com",
+            },
+          },
+          {
+            name: "Deliveries System",
+            tag: "Automation · Integrations",
+            oneLiner:
+              "Automation platform for managing 100–200 daily deliveries across multiple WhatsApp groups.",
+            bullets: ["WhatsApp integrations", "OCR pipelines", "Backend services"],
+            tech: ["Node.js", "Express", "PostgreSQL", "Azure Computer Vision"],
+            image: "/projects/deliveries.png",
+            links: {
+              github: "https://github.com/RoiMeshulam/DeliveriesProject",
+            //   live: "https://deliveries.example.com",
+            },
+          },
+          {
+            name: "HrBusterAI",
+            tag: "AI · Automation",
+            oneLiner: "AI-powered automation for managing and analyzing job applications.",
+            bullets: ["Automation pipelines", "AI integrations", "Scalable design"],
+            tech: ["n8n", "OpenAI API", "Google Sheets", "Node.js"],
+            image: "/projects/hrbuster.png",
+            links: {
+            //   github: "https://github.com/your-username/hrbusterai",
+            //   live: "https://hrbuster.example.com",
+            },
+          },
+          {
+            name: "MelamedLaw – Client Portal (Web + Mobile)",
+            tag: "Client · Full-Stack",
+            oneLiner:
+              "Web app + mobile experience for a law firm client portal: authentication, data layer, and backend APIs.",
+            bullets: [
+              "React web app (client portal UI)",
+              "REST API + authentication flow",
+              "Database design & data management",
+              "End-to-end ownership (web + server + DB)",
+            ],
+            tech: ["React", "Node.js", "Express", "PostgreSQL"],
+            image: "/projects/melamedlaw.png",
+            links: {
+            //   github: "https://github.com/your-username/melamedlaw",
+              live: "https://client.melamedlaw.co.il/LoginStack/LoginScreen",
+            },
+          },
+          
+        ],
       },
-      footer: "MeshulamDev · Architecting the Modern Web",
+      
+  
+    how: {
+      title: "How I work",
+      steps: [
+        "Understand the real business problem",
+        "Design a scalable technical solution",
+        "Build production-ready systems",
+        "Deliver with ownership and clarity",
+      ],
+      note: "No buzzwords. No over-engineering. Just systems that work.",
+    },
+  
+    contact: {
+      title: "Let’s build something real",
+      phone: "Phone",
+      phonePlaceholder: "+972 50-123-4567",
+      note: "I usually reply within 24 hours.",
+      desc: "Have a project in mind? Need backend, automation or a full product?",
+      name: "Name",
+      email: "Email",
+      message: "Tell me about your project",
+      send: "Send message",
+      success: "Thanks! I’ll get back to you soon.",
+      sending: "Sending...",
+      error: "Something went wrong. Please try again.",
+    },
+  
+    footer: "MeshulamDev · Backend · Real-Time · Automation · Cloud",
   };
+  
