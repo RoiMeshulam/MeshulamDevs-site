@@ -1,28 +1,28 @@
 export const he = {
-    nav: { services: "שירותים", projects: "פרויקטים", contact: "צור קשר" },
-  
+    nav: { services: "מומחיות", projects: "פרויקטים", contact: "צור קשר" },
+
     hero: {
-      title: "ארכיטקטורת תוכנה, אוטומציה ומערכות Backend",
-      subtitle: "פיתוח סקיילבילי · מערכות Real-Time · תשתית ענן",
+      title: "מהנדס תוכנה — מערכות Real-Time ואינטגרציית AI",
+      subtitle: "Node.js · React · React Native · ארכיטקטורת Event-Driven",
     desc:
-      "הופך לוגיקה עסקית מורכבת למערכות יציבות. מומחה בפיתוח צד-שרת, אינטגרציות מתקדמות, אוטומציות ומוצרים טכנולוגיים מקצה לקצה.",
-    ctaPrimary: "בוא נדבר על הפרויקט",
+      "אני רועי משולם, מהנדס תוכנה ב-OMW שבונה מערכות פעילות בפרודקשן. לצד זה אני לוקח פרויקטי פרילנס נבחרים שבהם אני אחראי על המערכת מקצה לקצה.",
+    ctaPrimary: "בואו נדבר",
     ctaSecondary: "לצפייה בעבודות",
     },
-  
+
     trust: [
-      "אחריות מלאה מקצה לקצה",
-      "חשיבה פרודקשנית",
-      "לקוחות אמיתיים ומערכות חיות",
-      "מומחיות בענן ואוטומציות",
+      "מהנדס תוכנה ב-OMW",
+      "מערכות בפרודקשן, לא דמו",
+      "פרויקטי פרילנס בצד",
+      "אינטגרציית AI ואוטומציה",
     ],
-  
+
     services: {
-        title: "הערך שאני מביא",
+        title: "מומחיות טכנית",
         items: [
           {
             title: "פיתוח Backend וארכיטקטורה",
-            desc: "בניית היסודות הטכנולוגיים שעליהם העסק שלך עומד.",
+            desc: "בניית היסודות הטכנולוגיים שעליהם המערכת עומדת.",
             bullets: [
               "תכנון ופיתוח REST APIs מורכבים",
               "אבטחת מידע וניהול זהויות",
@@ -45,7 +45,7 @@ export const he = {
             desc: "התייעלות תפעולית באמצעות חיבור חכם בין מערכות.",
             bullets: [
               "בניית תהליכי אוטומציה (n8n)",
-              "שילוב מודלים של AI (OpenAI/LLMs)",
+              "שילוב סוכני AI ומודלי שפה (MCP)",
               "בניית כלים פנימיים ודשבורדים",
               "מערכות קבלת החלטות אוטונומיות",
             ],
@@ -62,14 +62,14 @@ export const he = {
           },
         ],
       },
-  
+
     projects: {
         title: "פרויקטים נבחרים",
-        subtitle: "מערכות שנבנו עם דגש על ביצועים, יציבות וחווית משתמש.",
+        subtitle: "מערכות שתכננתי ובניתי, בעבודה ובזמני הפנוי.",
         items: [
           {
             name: "KASA – פלטפורמת IoT למיחזור",
-            tag: "Real-time · חומרה ותוכנה",
+            tag: "פרילנס · Real-time · IoT",
             oneLiner: "מערכת אקולוגית מלאה המחברת בזמן אמת בין משתמשים, מכונות מיחזור חכמות וענן.",
             bullets: [
               "שתי אפליקציות React Native (לקוח ותפעול)",
@@ -80,26 +80,13 @@ export const he = {
             tech: ["React Native", "Node.js", "Socket.IO", "Firebase"],
             image: "/projects/kasa.png",
             links: {
-              github: "https://github.com/RoiMeshulam/Kasa-prototype",
+              github: "https://github.com/RoiMeshulam/kasa-smart-case-study",
             //   live: "https://kasa-demo.example.com",
             },
           },
           {
-            name: "מערכת לוגיסטיקה ואוטומציה",
-        tag: "אוטומציה עסקית · אינטגרציות",
-        oneLiner:
-          "פלטפורמה המנהלת ומנתבת באופן אוטומטי מאות משלוחים יומיים דרך WhatsApp.",
-        bullets: ["אינטגרציה עמוקה ל-WhatsApp API", "פענוח תמונה לטקסט (OCR)", "דשבורד ניהול ובקרה"],
-            tech: ["Node.js", "Express", "PostgreSQL", "Azure Computer Vision"],
-            image: "/projects/deliveries.png",
-            links: {
-              github: "https://github.com/RoiMeshulam/DeliveriesProject",
-            //   live: "https://deliveries.example.com",
-            },
-          },
-          {
             name: "HrBusterAI",
-            tag: "AI · HR Tech",
+            tag: "פרויקט אישי · AI · HR Tech",
             oneLiner: "אוטומציה חכמה לסינון וניהול מועמדים המבוססת על מודלי שפה (LLMs).",
             bullets: ["תהליכי סינון אוטונומיים", "ניתוח טקסט מתקדם (OpenAI)", "עיבוד נתונים בנפח גבוה"],
             tech: ["n8n", "OpenAI API", "Google Sheets", "Node.js"],
@@ -110,8 +97,21 @@ export const he = {
             },
           },
           {
+            name: "מערכת לוגיסטיקה ואוטומציה",
+        tag: "פרויקט אישי · אוטומציה · לוגיסטיקה",
+        oneLiner:
+          "פלטפורמה מוקדמת שניהלה וניתבה באופן אוטומטי משלוחים דרך WhatsApp.",
+        bullets: ["אינטגרציה עמוקה ל-WhatsApp API", "פענוח תמונה לטקסט (OCR)", "דשבורד ניהול ובקרה"],
+            tech: ["Node.js", "Express", "PostgreSQL", "Azure Computer Vision"],
+            image: "/projects/deliveries.png",
+            links: {
+              github: "https://github.com/RoiMeshulam/DeliveriesProject",
+            //   live: "https://deliveries.example.com",
+            },
+          },
+          {
             name: "MelamedLaw – פורטל לקוחות מאובטח",
-            tag: "FinTech · אבטחת מידע",
+            tag: "תפקיד סטודנט · FinTech · אבטחת מידע",
             oneLiner:
               "מערכת לניהול קשרי לקוחות המאפשרת גישה מאובטחת למסמכים ומידע אישי.",
             bullets: [
@@ -127,37 +127,37 @@ export const he = {
               live: "https://client.melamedlaw.co.il/LoginStack/LoginScreen",
             },
           },
-          
+
         ],
       },
-      
-  
+
+
     how: {
       title: "תהליך העבודה שלי",
       steps: [
-        "ניתוח עמוק של הצורך העסקי",
+        "ניתוח עמוק של הצורך",
         "תכנון ארכיטקטורה יציבה",
         "פיתוח בסטנדרט Production",
         "מסירה, הטמעה ותמיכה",
       ],
-      note: "בלי סיבוכים מיותרים. קוד נקי שפותר בעיות אמיתיות.",
+      note: "קוד נקי. ארכיטקטורה סקיילבילית. תוצאות אמיתיות.",
     },
-  
+
     contact: {
-      title: "בואו נבנה משהו אמיתי",
-      desc: "יש לכם פרויקט? צריכים Backend, אוטומציה או מוצר שלם?",
+      title: "בואו נדבר",
+      desc: "יש לך פרויקט מעניין, או סתם בא לך לדבר על מערכות Backend ו-AI? אשמח לשמוע.",
       name: "שם",
       phone: "טלפון",
       phonePlaceholder: "05X-XXXXXXX",
-      note: "זמין לפרויקטים חדשים. מענה תוך 24 שעות.",
+      note: "אחזור אליך בקרוב.",
       email: "אימייל",
-      message: "ספרו לי בקצרה על הפרויקט",
+      message: "ספר לי בקצרה על הפרויקט",
       send: "שליחה",
-      success: "תודה! אחזור אליכם בהקדם.",
+      success: "תודה! אחזור אליך בהקדם.",
       sending: "שולח...",
       error: "אירעה שגיאה. נסה שוב.",
     },
-  
-    footer: "MeshulamDev · Backend · Real-Time · אוטומציות · Cloud",
+
+    footer: "רועי משולם · מהנדס תוכנה · Node.js · React · אינטגרציית AI",
   };
   
