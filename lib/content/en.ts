@@ -1,20 +1,20 @@
 export const en = {
-    nav: { services: "Services", projects: "Projects", contact: "Contact" },
+    nav: { services: "Expertise", projects: "Projects", contact: "Contact" },
 
     hero: {
-        title: "Robust Backend & Automation Architecture",
-        subtitle: "Scalable Solutions • Real-Time Systems • Cloud Infrastructure",
+        title: "Software Engineer — Real-Time & AI-Integrated Systems",
+        subtitle: "Node.js • React • React Native • Event-Driven Architecture",
         desc:
-            "Transforming complex business logic into reliable, production-grade systems. Specializing in high-performance APIs, automation pipelines, and end-to-end product delivery.",
-        ctaPrimary: "Discuss Your Project",
-        ctaSecondary: "Explore Portfolio",
+            "I'm Roi Meshulam, a software engineer at OMW building production delivery systems. I also take on select freelance projects where I own the system end to end.",
+        ctaPrimary: "Get in Touch",
+        ctaSecondary: "See My Work",
     },
 
     trust: [
-        "End-to-end ownership",
-        "Production mindset",
-        "Real clients & real systems",
-        "Cloud & automation expertise",
+        "Software Engineer @ OMW",
+        "Production systems, not demos",
+        "Freelance projects on the side",
+        "AI & automation integration",
     ],
 
     services: {
@@ -48,7 +48,7 @@ export const en = {
                     "Optimizing operational efficiency through intelligent integration and AI.",
                 bullets: [
                     "Custom Automation Workflows (n8n)",
-                    "LLM & AI Agent Integration",
+                    "LLM & Agent Integration (MCP)",
                     "Internal Tooling & Admin Panels",
                     "Business Intelligence Systems",
                 ],
@@ -69,11 +69,11 @@ export const en = {
 
     projects: {
         title: "Selected Projects",
-        subtitle: "A selection of mission-critical systems and automated solutions.",
+        subtitle: "A selection of systems I've designed and shipped, at work and on my own time.",
         items: [
             {
                 name: "KASA – IoT Recycling Platform",
-                tag: "Real-time · IoT · Full System",
+                tag: "Freelance · Real-time · IoT",
                 oneLiner: "A comprehensive real-time ecosystem connecting users, smart machines, and cloud services.",
                 bullets: [
                     "Dual React Native Applications",
@@ -84,26 +84,13 @@ export const en = {
                 tech: ["React Native", "Node.js", "Socket.IO", "Firebase"],
                 image: "/projects/kasa.png",
                 links: {
-                    github: "https://github.com/RoiMeshulam/Kasa-prototype",
+                    github: "https://github.com/RoiMeshulam/kasa-smart-case-study",
                     //   live: "https://kasa-demo.example.com",
                 },
             },
             {
-                name: "Deliveries Operations System",
-                tag: "Automation · Logistic",
-                oneLiner:
-                    "An automated logistics platform orchestrating 100+ daily deliveries via WhatsApp integration.",
-                bullets: ["WhatsApp API Integration", "Intelligent OCR Pipelines", "Centralized Backend Dashboard"],
-                tech: ["Node.js", "Express", "PostgreSQL", "Azure Computer Vision"],
-                image: "/projects/deliveries.png",
-                links: {
-                    github: "https://github.com/RoiMeshulam/DeliveriesProject",
-                    //   live: "https://deliveries.example.com",
-                },
-            },
-            {
                 name: "HrBusterAI",
-                tag: "AI Agents · HR Tech",
+                tag: "Personal Project · AI Agents · HR Tech",
                 oneLiner: "Leveraging AI to automate candidate screening and application management workflows.",
                 bullets: ["Autonomous Workflows", "OpenAI Logic Integration", "Data Processing at Scale"],
                 tech: ["n8n", "OpenAI API", "Google Sheets", "Node.js"],
@@ -114,8 +101,21 @@ export const en = {
                 },
             },
             {
+                name: "Deliveries Operations System",
+                tag: "Personal Project · Automation · Logistics",
+                oneLiner:
+                    "An earlier automated logistics platform orchestrating deliveries via WhatsApp integration.",
+                bullets: ["WhatsApp API Integration", "Intelligent OCR Pipelines", "Centralized Backend Dashboard"],
+                tech: ["Node.js", "Express", "PostgreSQL", "Azure Computer Vision"],
+                image: "/projects/deliveries.png",
+                links: {
+                    github: "https://github.com/RoiMeshulam/DeliveriesProject",
+                    //   live: "https://deliveries.example.com",
+                },
+            },
+            {
                 name: "MelamedLaw Client Portal",
-                tag: "FinTech · Secure Portal",
+                tag: "Student Position · FinTech · Secure Portal",
                 oneLiner:
                     "A secure client-facing portal ensuring data privacy and seamless document access.",
                 bullets: [
@@ -144,15 +144,15 @@ export const en = {
             "Develop for Production",
             "Deploy & Monitor",
         ],
-        note: "Clean code. Scalable architecture. Business results.",
+        note: "Clean code. Scalable architecture. Real outcomes.",
     },
 
     contact: {
-        title: "Ready to Scale?",
+        title: "Let's Talk",
         phone: "Phone",
         phonePlaceholder: "+972 50-123-4567",
-        note: "Response within 24 hours guaranteed.",
-        desc: "Looking for a partner to build your next system? Let's talk technical.",
+        note: "I'll get back to you soon.",
+        desc: "Have an interesting project, or want to talk shop about backend and AI systems? I'd love to hear from you.",
         name: "Name",
         email: "Email",
         message: "Tell me about your project",
@@ -162,5 +162,5 @@ export const en = {
         error: "Transmission failed. Please retry.",
     },
 
-    footer: "MeshulamDev · Backend · Real-Time · Automation · Cloud",
+    footer: "Roi Meshulam · Software Engineer · Node.js · React · AI Integration",
 };
