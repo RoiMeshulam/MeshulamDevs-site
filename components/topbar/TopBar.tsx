@@ -11,14 +11,14 @@ export default function TopBar() {
         <Link href="/" className="flex items-center gap-3">
           <div className="h-9 w-9 rounded-xl border bg-white shadow-sm" />
           <div className="leading-tight">
-            <div className="text-sm font-semibold tracking-tight">MeshulamDev</div>
-            <div className="text-xs text-muted-foreground">Systems · Automation · Cloud</div>
+            <div className="text-sm font-semibold tracking-tight">Roi Meshulam</div>
+            <div className="text-xs text-muted-foreground">Software Engineer</div>
           </div>
         </Link>
 
         {/* Middle: Nav (desktop) */}
         <nav className="hidden items-center gap-6 text-sm text-muted-foreground md:flex">
-          <a href="#services" className="hover:text-foreground transition-colors">Services</a>
+          <a href="#services" className="hover:text-foreground transition-colors">Expertise</a>
           <a href="#projects" className="hover:text-foreground transition-colors">Projects</a>
           <a href="#contact" className="hover:text-foreground transition-colors">Contact</a>
         </nav>
