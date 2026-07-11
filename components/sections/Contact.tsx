@@ -44,25 +44,25 @@ export default function Contact({ t }: { t: any }) {
   }
 
   return (
-    <section id="contact" className="mx-auto max-w-6xl px-6 pb-24 pt-8">
+    <section id="contact" className="mx-auto max-w-6xl px-6 pb-28 pt-8">
       <div className="mx-auto max-w-2xl text-center">
-        <h2 className="text-2xl font-semibold tracking-tight sm:text-3xl">
+        <h2 className="text-3xl font-bold tracking-tight text-neutral-900 sm:text-4xl">
           {t.contact.title}
         </h2>
-        <p className="mt-2 text-sm text-muted-foreground">
+        <p className="mt-3 text-sm text-neutral-500">
           {t.contact.desc}
         </p>
       </div>
 
-      <Card className="mt-10 rounded-2xl">
+      <Card className="mx-auto mt-10 max-w-2xl rounded-2xl border-neutral-200">
         <CardContent className="p-6 sm:p-10">
           {!actionUrl ? (
-            <div className="rounded-xl border bg-muted/30 p-4 text-sm text-muted-foreground">
-              Missing <code>NEXT_PUBLIC_FORMSPREE_URL</code>.  
+            <div className="rounded-xl border border-neutral-200 bg-neutral-50 p-4 text-sm text-neutral-500">
+              Missing <code>NEXT_PUBLIC_FORMSPREE_URL</code>.
               Add it to <code>.env.local</code>.
             </div>
           ) : status === "success" ? (
-            <div className="text-sm text-green-600">
+            <div className="text-sm text-emerald-600">
               {t.contact.success}
             </div>
           ) : status === "error" ? (
@@ -70,11 +70,11 @@ export default function Contact({ t }: { t: any }) {
               {t.contact.error}
             </div>
           ) : (
-            <form onSubmit={handleSubmit} className="mt-6 grid gap-4">
+            <form onSubmit={handleSubmit} className="grid gap-5">
               <input
                 type="hidden"
                 name="_subject"
-                value="New lead from MeshulamDev"
+                value="New message from roimeshulam.dev"
               />
 
               <div className="grid gap-2">
@@ -103,14 +103,14 @@ export default function Contact({ t }: { t: any }) {
                 <Textarea id="message" name="message" rows={6} required />
               </div>
 
-              <p className="text-xs text-muted-foreground">
+              <p className="text-xs text-neutral-400">
                 {t.contact.note}
               </p>
 
               <Button
                 type="submit"
                 size="lg"
-                className="rounded-xl"
+                className="rounded-lg bg-neutral-900 text-white hover:bg-blue-600"
                 disabled={status === "loading"}
               >
                 {status === "loading"
