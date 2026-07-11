@@ -2,162 +2,165 @@ export const he = {
     nav: { services: "מומחיות", projects: "פרויקטים", contact: "צור קשר" },
 
     hero: {
-      title: "מהנדס תוכנה — מערכות Real-Time ואינטגרציית AI",
-      subtitle: "Node.js · React · React Native · ארכיטקטורת Event-Driven",
-    desc:
-      "אני רועי משולם, מהנדס תוכנה ב-OMW שבונה מערכות פעילות בפרודקשן. לצד זה אני לוקח פרויקטי פרילנס נבחרים שבהם אני אחראי על המערכת מקצה לקצה.",
-    ctaPrimary: "בואו נדבר",
-    ctaSecondary: "לצפייה בעבודות",
+        title: "מהנדס תוכנה — מערכות Real-Time ומשולבות AI",
+        subtitle: "Node.js · React · React Native · ארכיטקטורת Event-Driven",
+        desc:
+            "אני רועי משולם, מהנדס תוכנה ב-OMW שבונה מערכות אספקה בפרודקשן. לצד זה אני לוקח פרויקטי פרילנס נבחרים שבהם אני הבעלים של המערכת מקצה לקצה.",
+        ctaPrimary: "בואו נדבר",
+        ctaSecondary: "לצפייה בעבודות",
     },
 
     trust: [
-      "מהנדס תוכנה ב-OMW",
-      "מערכות בפרודקשן, לא דמו",
-      "פרויקטי פרילנס בצד",
-      "אינטגרציית AI ואוטומציה",
+        "מהנדס תוכנה ב-OMW",
+        "מערכות בפרודקשן, לא דמו",
+        "פרויקטי פרילנס בצד",
+        "אינטגרציית AI ואוטומציה",
     ],
 
     services: {
         title: "מומחיות טכנית",
         items: [
-          {
-            title: "פיתוח Backend וארכיטקטורה",
-            desc: "בניית היסודות הטכנולוגיים שעליהם המערכת עומדת.",
-            bullets: [
-              "תכנון ופיתוח REST APIs מורכבים",
-              "אבטחת מידע וניהול זהויות",
-              "אופטימיזציה של מסדי נתונים",
-              "CI/CD וניהול סביבות ענן",
-            ],
-          },
-          {
-            title: "מערכות Real-Time",
-            desc: "פתרונות לתקשורת מיידית וסנכרון נתונים מהיר.",
-            bullets: [
-              "תשתיות WebSockets ו-Socket.IO",
-              "ניהול תורים ואירועים (Event-Driven)",
-              "עבודות רקע ועיבוד אסינכרוני",
-              "ממשקים למכונות ו-IoT",
-            ],
-          },
-          {
-            title: "אוטומציה ובינה מלאכותית",
-            desc: "התייעלות תפעולית באמצעות חיבור חכם בין מערכות.",
-            bullets: [
-              "בניית תהליכי אוטומציה (n8n)",
-              "שילוב סוכני AI ומודלי שפה (MCP)",
-              "בניית כלים פנימיים ודשבורדים",
-              "מערכות קבלת החלטות אוטונומיות",
-            ],
-          },
-          {
-            title: "פיתוח מוצר מלא (Full Stack)",
-            desc: "לקיחת אחריות טכנולוגית משלב האפיון ועד להשקה.",
-            bullets: [
-              "אפליקציות Web ו-Mobile מתקדמות",
-              "פיתוח ב-React ו-React Native",
-              "חיבור מלא בין Client ל-Server",
-              "תחזוקה וניטור שוטף",
-            ],
-          },
+            {
+                title: "הנדסת Backend",
+                desc:
+                    "תכנון ארכיטקטורה של מערכות צד-שרת מאובטחות וסקיילביליות, המיועדות לזמינות גבוהה.",
+                bullets: [
+                    "ארכיטקטורת REST API מתקדמת",
+                    "אימות מאובטח (OAuth/JWT)",
+                    "מידול מסדי נתונים מורכבים (SQL/NoSQL)",
+                    "צנרות CI/CD ופריסה בענן",
+                ],
+            },
+            {
+                title: "תקשורת Real-Time",
+                desc:
+                    "בניית מערכות מסונכרנות שמעבירות נתונים באופן מיידי בין פלטפורמות.",
+                bullets: [
+                    "תשתית WebSocket",
+                    "ארכיטקטורת Event-Driven",
+                    "עיבוד אסינכרוני ותורים",
+                    "קליטת נתונים בנפח גבוה",
+                ],
+            },
+            {
+                title: "אוטומציית תהליכי עבודה",
+                desc:
+                    "שיפור היעילות התפעולית באמצעות אינטגרציה חכמה ובינה מלאכותית.",
+                bullets: [
+                    "תהליכי אוטומציה מותאמים אישית (n8n)",
+                    "שילוב מודלי שפה וסוכנים (MCP)",
+                    "כלים פנימיים ופאנלי ניהול",
+                    "מערכות בינה עסקית",
+                ],
+            },
+            {
+                title: "פיתוח מוצר מקצה לקצה",
+                desc:
+                    "מסירת מוצרים דיגיטליים שלמים, מתכנון ארכיטקטוני ועד פריסה.",
+                bullets: [
+                    "אפליקציות Mobile ו-Web חוצות פלטפורמות",
+                    "אקוסיסטם React ו-React Native",
+                    "הקמת תשתית מלאה",
+                    "ניטור ותחזוקה בסביבת Production",
+                ],
+            },
         ],
-      },
+    },
 
     projects: {
         title: "פרויקטים נבחרים",
-        subtitle: "מערכות שתכננתי ובניתי, בעבודה ובזמני הפנוי.",
+        subtitle: "מבחר מערכות שתכננתי ומסרתי, בעבודה ובזמני הפנוי.",
         items: [
-          {
-            name: "KASA – פלטפורמת IoT למיחזור",
-            tag: "פרילנס · Real-time · IoT",
-            oneLiner: "מערכת אקולוגית מלאה המחברת בזמן אמת בין משתמשים, מכונות מיחזור חכמות וענן.",
-            bullets: [
-              "שתי אפליקציות React Native (לקוח ותפעול)",
-              "תקשורת דו-כיוונית בזמן אמת (WebSockets)",
-              "ניהול State וסשנים מורכב",
-              "תשתית Serverless וניהול דאטה",
-            ],
-            tech: ["React Native", "Node.js", "Socket.IO", "Firebase"],
-            image: "/projects/kasa.png",
-            links: {
-              github: "https://github.com/RoiMeshulam/kasa-smart-case-study",
-            //   live: "https://kasa-demo.example.com",
+            {
+                name: "KASA – פלטפורמת IoT למיחזור",
+                tag: "פרילנס · Real-time · IoT",
+                oneLiner: "מערכת אקולוגית מלאה המחברת בזמן אמת בין משתמשים, מכונות מיחזור חכמות וענן.",
+                bullets: [
+                    "שתי אפליקציות React Native",
+                    "תקשורת WebSocket דו-כיוונית",
+                    "ניהול State איתן",
+                    "תשתית ענן סקיילבילית",
+                ],
+                tech: ["React Native", "Node.js", "Socket.IO", "Firebase"],
+                image: "/projects/kasa.png",
+                links: {
+                    github: "https://github.com/RoiMeshulam/kasa-smart-case-study",
+                    //   live: "https://kasa-demo.example.com",
+                },
             },
-          },
-          {
-            name: "HrBusterAI",
-            tag: "פרויקט אישי · AI · HR Tech",
-            oneLiner: "אוטומציה חכמה לסינון וניהול מועמדים המבוססת על מודלי שפה (LLMs).",
-            bullets: ["תהליכי סינון אוטונומיים", "ניתוח טקסט מתקדם (OpenAI)", "עיבוד נתונים בנפח גבוה"],
-            tech: ["n8n", "OpenAI API", "Google Sheets", "Node.js"],
-            image: "/projects/hrbuster.png",
-            links: {
-            //   github: "https://github.com/your-username/hrbusterai",
-            //   live: "https://hrbuster.example.com",
+            {
+                name: "HrBusterAI",
+                tag: "פרויקט אישי · סוכני AI · HR Tech",
+                oneLiner: "שימוש בבינה מלאכותית להפיכת סינון מועמדים וניהול בקשות לתהליך אוטומטי.",
+                bullets: ["תהליכי עבודה אוטונומיים", "שילוב לוגיקת OpenAI", "עיבוד נתונים בקנה מידה גדול"],
+                tech: ["n8n", "OpenAI API", "Google Sheets", "Node.js"],
+                image: "/projects/hrbuster.png",
+                links: {
+                    //   github: "https://github.com/your-username/hrbusterai",
+                    //   live: "https://hrbuster.example.com",
+                },
             },
-          },
-          {
-            name: "מערכת לוגיסטיקה ואוטומציה",
-        tag: "פרויקט אישי · אוטומציה · לוגיסטיקה",
-        oneLiner:
-          "פלטפורמה מוקדמת שניהלה וניתבה באופן אוטומטי משלוחים דרך WhatsApp.",
-        bullets: ["אינטגרציה עמוקה ל-WhatsApp API", "פענוח תמונה לטקסט (OCR)", "דשבורד ניהול ובקרה"],
-            tech: ["Node.js", "Express", "PostgreSQL", "Azure Computer Vision"],
-            image: "/projects/deliveries.png",
-            links: {
-              github: "https://github.com/RoiMeshulam/DeliveriesProject",
-            //   live: "https://deliveries.example.com",
+            {
+                name: "מערכת תפעול משלוחים",
+                tag: "פרויקט אישי · אוטומציה · לוגיסטיקה",
+                oneLiner:
+                    "פלטפורמת לוגיסטיקה מוקדמת שניהלה וניתבה משלוחים באופן אוטומטי דרך אינטגרציית WhatsApp.",
+                bullets: ["אינטגרציית WhatsApp API", "צנרות OCR חכמות", "דשבורד Backend מרכזי"],
+                tech: ["Node.js", "Express", "PostgreSQL", "Azure Computer Vision"],
+                image: "/projects/deliveries.png",
+                links: {
+                    github: "https://github.com/RoiMeshulam/DeliveriesProject",
+                    //   live: "https://deliveries.example.com",
+                },
             },
-          },
-          {
-            name: "MelamedLaw – פורטל לקוחות מאובטח",
-            tag: "תפקיד סטודנט · FinTech · אבטחת מידע",
-            oneLiner:
-              "מערכת לניהול קשרי לקוחות המאפשרת גישה מאובטחת למסמכים ומידע אישי.",
-            bullets: [
-              "ממשק React מתקדם ומותאם אישית",
-              "מנגנוני אבטחה והרשאות קפדניים",
-              "ניהול בסיס נתונים רלציוני",
-              "פיתוח Full Stack מקצה לקצה",
-            ],
-            tech: ["React", "Node.js", "Express", "PostgreSQL"],
-            image: "/projects/melamedlaw.png",
-            links: {
-            //   github: "https://github.com/your-username/melamedlaw",
-              live: "https://client.melamedlaw.co.il/LoginStack/LoginScreen",
+            {
+                name: "MelamedLaw – פורטל לקוחות מאובטח",
+                tag: "תפקיד סטודנט · FinTech · אבטחת מידע",
+                oneLiner:
+                    "פורטל מאובטח ללקוחות המבטיח פרטיות נתונים וגישה חלקה למסמכים.",
+                bullets: [
+                    "דשבורד React מאובטח",
+                    "בקרת גישה מבוססת תפקידים",
+                    "קשרי נתונים מורכבים",
+                    "מימוש Full Stack",
+                ],
+                tech: ["React", "Node.js", "Express", "PostgreSQL"],
+                image: "/projects/melamedlaw.png",
+                links: {
+                    //   github: "https://github.com/your-username/melamedlaw",
+                    live: "https://client.melamedlaw.co.il/LoginStack/LoginScreen",
+                },
             },
-          },
 
         ],
-      },
+    },
 
 
     how: {
-      title: "תהליך העבודה שלי",
-      steps: [
-        "ניתוח עמוק של הצורך",
-        "תכנון ארכיטקטורה יציבה",
-        "פיתוח בסטנדרט Production",
-        "מסירה, הטמעה ותמיכה",
-      ],
-      note: "קוד נקי. ארכיטקטורה סקיילבילית. תוצאות אמיתיות.",
+        title: "תהליך העבודה שלי",
+        steps: [
+            "ניתוח דרישות הליבה",
+            "ארכיטקטורת פתרונות סקיילביליים",
+            "פיתוח בסטנדרט Production",
+            "פריסה וניטור",
+        ],
+        note: "קוד נקי. ארכיטקטורה סקיילבילית. תוצאות אמיתיות.",
     },
 
     contact: {
-      title: "בואו נדבר",
-      desc: "יש לך פרויקט מעניין, או סתם בא לך לדבר על מערכות Backend ו-AI? אשמח לשמוע.",
-      name: "שם",
-      phone: "טלפון",
-      phonePlaceholder: "05X-XXXXXXX",
-      note: "אחזור אליך בקרוב.",
-      email: "אימייל",
-      message: "ספר לי בקצרה על הפרויקט",
-      send: "שליחה",
-      success: "תודה! אחזור אליך בהקדם.",
-      sending: "שולח...",
-      error: "אירעה שגיאה. נסה שוב.",
+        title: "בואו נדבר",
+        phone: "טלפון",
+        phonePlaceholder: "05X-XXXXXXX",
+        note: "אחזור אליך בקרוב.",
+        desc: "יש לך פרויקט מעניין, או סתם בא לך לדבר על מערכות Backend ו-AI? אשמח לשמוע.",
+        name: "שם",
+        email: "אימייל",
+        message: "ספר לי בקצרה על הפרויקט",
+        send: "שליחה",
+        success: "תודה! אחזור אליך בהקדם.",
+        sending: "שולח...",
+        error: "אירעה שגיאה. נסה שוב.",
     },
 
     footer: "רועי משולם · מהנדס תוכנה · Node.js · React · אינטגרציית AI",
-  };
-  
+};
