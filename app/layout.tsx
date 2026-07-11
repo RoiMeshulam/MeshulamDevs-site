@@ -14,24 +14,24 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "MeshulamDev – Backend, Real-Time & Automation Systems",
-    template: "%s | MeshulamDev",
+    default: "Roi Meshulam – Software Engineer",
+    template: "%s | Roi Meshulam",
   },
   description:
-    "I build real-world backend, real-time and automation systems with end-to-end ownership. APIs, WebSockets, cloud infrastructure and production-ready solutions.",
-  metadataBase: new URL("https://meshulam-devs-site.vercel.app"), // או הדומיין שלך
+    "Software engineer building real-time, backend and AI-integrated automation systems. Node.js, React, React Native, event-driven architecture.",
+  metadataBase: new URL("https://meshulam-devs-site.vercel.app"),
   openGraph: {
-    title: "MeshulamDev – Real-World Software Systems",
+    title: "Roi Meshulam – Software Engineer",
     description:
-      "Backend, real-time and automation systems with end-to-end ownership. APIs, WebSockets, cloud and production-ready delivery.",
+      "Real-time, backend and AI-integrated automation systems. Node.js, React, React Native, event-driven architecture.",
     url: "https://meshulam-devs-site.vercel.app",
-    siteName: "MeshulamDev",
+    siteName: "Roi Meshulam",
     images: [
       {
         url: "/og.png",
         width: 1200,
         height: 630,
-        alt: "MeshulamDev",
+        alt: "Roi Meshulam",
       },
     ],
     locale: "en_US",
@@ -39,9 +39,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "MeshulamDev – Real-World Software Systems",
+    title: "Roi Meshulam – Software Engineer",
     description:
-      "Backend, real-time and automation systems with end-to-end ownership.",
+      "Real-time, backend and AI-integrated automation systems.",
     images: ["/og.png"],
   },
 };
