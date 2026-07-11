@@ -41,30 +41,30 @@ export default function ProjectsCarousel({
     const goNext = () => setIndex((i) => (i + 1) % total);
 
     return (
-        <section id="projects" className="border-t bg-white">
-            <div className="mx-auto max-w-6xl px-6 py-16 sm:py-20">
+        <section id="projects" className="border-t border-neutral-200 bg-neutral-50">
+            <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
                 {/* Header */}
                 <div className="mx-auto max-w-2xl text-center">
-                    <h2 className="text-2xl font-semibold tracking-tight sm:text-3xl">
+                    <h2 className="text-3xl font-bold tracking-tight text-neutral-900 sm:text-4xl">
                         {t.projects.title}
                     </h2>
-                    <p className="mt-3 text-sm text-muted-foreground">{t.projects.subtitle}</p>
+                    <p className="mt-3 text-sm text-neutral-500">{t.projects.subtitle}</p>
                 </div>
 
                 {/* Carousel */}
-                <div className="mt-10">
-                    <Card className="overflow-hidden rounded-2xl shadow-sm">
+                <div className="mt-12">
+                    <Card className="overflow-hidden rounded-2xl border-neutral-200 shadow-sm">
                         <CardContent className="p-0">
                             <div className="grid lg:grid-cols-2">
                                 {/* Image */}
                                 <div
                                     className="
-                                     relative w-full overflow-hidden rounded-t-2xl bg-white
-                                     h-[320px] sm:h-[380px]
-                                    lg:h-[520px] lg:rounded-l-2xl lg:rounded-tr-none lg:rounded-t-none
+                                     relative w-full overflow-hidden bg-white
+                                     h-[280px] sm:h-[360px]
+                                    lg:h-[480px]
                                     "
                                 >
-                            
+
                                     <Image
                                         src={project.image}
                                         alt={project.name}
@@ -72,11 +72,8 @@ export default function ProjectsCarousel({
                                         className="object-contain"
                                         priority={index === 0}
                                     />
-                                     
 
                                 </div>
-
-
 
                                 {/* Content */}
                                 <div className={isHe ? "text-right" : "text-left"}>
@@ -85,32 +82,32 @@ export default function ProjectsCarousel({
                                         <div>
                                             <div className="flex flex-wrap items-center justify-between gap-3">
                                                 <div>
-                                                    <h3 className="text-lg font-semibold">{project.name}</h3>
+                                                    <h3 className="text-xl font-bold tracking-tight text-neutral-900">{project.name}</h3>
 
                                                     {project.tag && (
-                                                        <span className="mt-2 inline-flex rounded-full bg-[#3348FF]/10 px-3 py-1 text-xs font-medium text-[#3348FF]">
+                                                        <span className="mt-2 inline-flex rounded-full bg-blue-50 px-3 py-1 text-xs font-semibold text-blue-600">
                                                             {project.tag}
                                                         </span>
                                                     )}
                                                 </div>
                                             </div>
 
-                                            <p className="mt-4 text-sm text-muted-foreground">{project.oneLiner}</p>
+                                            <p className="mt-4 text-sm leading-relaxed text-neutral-500">{project.oneLiner}</p>
 
                                             {/* Tech */}
                                             <div className="mt-4 flex flex-wrap gap-2">
                                                 {project.tech.map((tech) => (
-                                                    <Badge key={tech} variant="secondary" className="rounded-full">
+                                                    <Badge key={tech} variant="secondary" className="rounded-full font-normal">
                                                         {tech}
                                                     </Badge>
                                                 ))}
                                             </div>
 
                                             {/* Bullets */}
-                                            <ul className="mt-6 space-y-2 text-sm text-muted-foreground">
+                                            <ul className="mt-6 space-y-2.5 text-sm text-neutral-600">
                                                 {project.bullets.map((b) => (
-                                                    <li key={b} className="flex gap-2">
-                                                        <span className="mt-2 h-1.5 w-1.5 rounded-full bg-gray-300" />
+                                                    <li key={b} className="flex gap-2.5">
+                                                        <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-500" />
                                                         <span>{b}</span>
                                                     </li>
                                                 ))}
@@ -120,7 +117,7 @@ export default function ProjectsCarousel({
                                         {/* CTA */}
                                         <div className="mt-8 flex flex-wrap gap-3">
                                             {project.links?.github && (
-                                                <Button className="rounded-xl" asChild>
+                                                <Button className="rounded-lg bg-neutral-900 text-white hover:bg-blue-600" asChild>
                                                     <a href={project.links.github} target="_blank" rel="noreferrer">
                                                         GitHub
                                                     </a>
@@ -128,7 +125,7 @@ export default function ProjectsCarousel({
                                             )}
 
                                             {project.links?.live && (
-                                                <Button variant="outline" className="rounded-xl" asChild>
+                                                <Button variant="outline" className="rounded-lg border-neutral-300" asChild>
                                                     <a href={project.links.live} target="_blank" rel="noreferrer">
                                                         Live
                                                     </a>
@@ -146,7 +143,7 @@ export default function ProjectsCarousel({
                         <Button
                             variant="outline"
                             size="icon"
-                            className="rounded-xl"
+                            className="rounded-lg border-neutral-300"
                             onClick={goPrev}
                             aria-label="Previous project"
                         >
@@ -160,7 +157,7 @@ export default function ProjectsCarousel({
                                     key={i}
                                     onClick={() => setIndex(i)}
                                     aria-label={`Go to project ${i + 1}`}
-                                    className={`h-2.5 w-2.5 rounded-full transition ${i === index ? "bg-[#3348FF]" : "bg-gray-300"
+                                    className={`h-2 w-2 rounded-full transition-all ${i === index ? "w-6 bg-blue-600" : "bg-neutral-300"
                                         }`}
                                 />
                             ))}
@@ -169,7 +166,7 @@ export default function ProjectsCarousel({
                         <Button
                             variant="outline"
                             size="icon"
-                            className="rounded-xl"
+                            className="rounded-lg border-neutral-300"
                             onClick={goNext}
                             aria-label="Next project"
                         >
