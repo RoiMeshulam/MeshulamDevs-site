@@ -76,10 +76,10 @@ export const en = {
                 tag: "Freelance · Real-time · IoT",
                 oneLiner: "A comprehensive real-time ecosystem connecting users, smart machines, and cloud services.",
                 bullets: [
-                    "Dual React Native Applications",
-                    "Bi-directional WebSocket Communication",
-                    "Robust State Management",
-                    "Scalable Cloud Infrastructure",
+                    "Dual React Native Applications (User + Kiosk)",
+                    "Sub-1.5s End-to-End Session Flow",
+                    "60s Reconnect Grace Period on Disconnect",
+                    "100% Financial Integrity via Atomic Transactions",
                 ],
                 tech: ["React Native", "Node.js", "Socket.IO", "Firebase"],
                 image: "/projects/kasa.png",
@@ -104,8 +104,8 @@ export const en = {
                 name: "Deliveries Operations System",
                 tag: "Personal Project · Automation · Logistics",
                 oneLiner:
-                    "An earlier automated logistics platform orchestrating deliveries via WhatsApp integration.",
-                bullets: ["WhatsApp API Integration", "Intelligent OCR Pipelines", "Centralized Backend Dashboard"],
+                    "An earlier automated logistics platform that organized deliveries in real time across 13 WhatsApp business groups.",
+                bullets: ["WhatsApp Integration Across 13 Business Groups", "AI-Powered Image Analysis (Azure Computer Vision)", "Centralized Backend Dashboard"],
                 tech: ["Node.js", "Express", "PostgreSQL", "Azure Computer Vision"],
                 image: "/projects/deliveries.png",
                 links: {
