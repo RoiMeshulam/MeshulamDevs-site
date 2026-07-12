@@ -76,10 +76,10 @@ export const he = {
                 tag: "פרילנס · Real-time · IoT",
                 oneLiner: "מערכת אקולוגית מלאה המחברת בזמן אמת בין משתמשים, מכונות מיחזור חכמות וענן.",
                 bullets: [
-                    "שתי אפליקציות React Native",
-                    "תקשורת WebSocket דו-כיוונית",
-                    "ניהול State איתן",
-                    "תשתית ענן סקיילבילית",
+                    "שתי אפליקציות React Native (משתמש + קיוסק)",
+                    "זרימת סשן מקצה לקצה בפחות מ-1.5 שניות",
+                    "60 שניות זמן חסד לחיבור מחדש בעת ניתוק",
+                    "שלמות פיננסית של 100% באמצעות טרנזקציות אטומיות",
                 ],
                 tech: ["React Native", "Node.js", "Socket.IO", "Firebase"],
                 image: "/projects/kasa.png",
@@ -104,8 +104,8 @@ export const he = {
                 name: "מערכת תפעול משלוחים",
                 tag: "פרויקט אישי · אוטומציה · לוגיסטיקה",
                 oneLiner:
-                    "פלטפורמת לוגיסטיקה מוקדמת שניהלה וניתבה משלוחים באופן אוטומטי דרך אינטגרציית WhatsApp.",
-                bullets: ["אינטגרציית WhatsApp API", "צנרות OCR חכמות", "דשבורד Backend מרכזי"],
+                    "פלטפורמת לוגיסטיקה מוקדמת שניהלה משלוחים בזמן אמת על פני 13 קבוצות WhatsApp עסקיות.",
+                bullets: ["אינטגרציית WhatsApp על פני 13 קבוצות עסקיות", "ניתוח תמונות מבוסס בינה מלאכותית (Azure Computer Vision)", "דשבורד Backend מרכזי"],
                 tech: ["Node.js", "Express", "PostgreSQL", "Azure Computer Vision"],
                 image: "/projects/deliveries.png",
                 links: {
